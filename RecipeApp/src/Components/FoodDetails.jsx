@@ -49,7 +49,7 @@ export default function FoodDetails({ foodId }) {
       </div>
       <h2>Ingredients</h2>
       <ItemList food={food} isLoading={isLoading} />
-      <h2>Instructions</h2>
+      <h2>Instructions!</h2>
       <div className={styles.recipeInstructions}>
         <ol>
           {isLoading ? (
